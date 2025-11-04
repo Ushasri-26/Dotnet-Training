@@ -1,0 +1,8 @@
+C:\Csharp\Grocery\bin\Debug\Grocery.exe.config
+C:\Csharp\Grocery\bin\Debug\Grocery.exe
+C:\Csharp\Grocery\bin\Debug\Grocery.pdb
+C:\Csharp\Grocery\obj\Debug\Grocery.csproj.AssemblyReference.cache
+C:\Csharp\Grocery\obj\Debug\Grocery.csproj.CoreCompileInputs.cache
+C:\Csharp\Grocery\obj\Debug\Grocery.exe
+C:\Csharp\Grocery\obj\Debug\Grocery.pdb
+C:\Csharp\Grocery\obj\Debug\Grocery.exe.config

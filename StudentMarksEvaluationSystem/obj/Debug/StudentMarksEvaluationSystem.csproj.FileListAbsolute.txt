@@ -1,0 +1,7 @@
+C:\Csharp\StudentMarksEvaluationSystem\bin\Debug\StudentMarksEvaluationSystem.exe.config
+C:\Csharp\StudentMarksEvaluationSystem\bin\Debug\StudentMarksEvaluationSystem.exe
+C:\Csharp\StudentMarksEvaluationSystem\bin\Debug\StudentMarksEvaluationSystem.pdb
+C:\Csharp\StudentMarksEvaluationSystem\obj\Debug\StudentMarksEvaluationSystem.csproj.AssemblyReference.cache
+C:\Csharp\StudentMarksEvaluationSystem\obj\Debug\StudentMarksEvaluationSystem.csproj.CoreCompileInputs.cache
+C:\Csharp\StudentMarksEvaluationSystem\obj\Debug\StudentMarksEvaluationSystem.exe
+C:\Csharp\StudentMarksEvaluationSystem\obj\Debug\StudentMarksEvaluationSystem.pdb
