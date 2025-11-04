@@ -1,0 +1,8 @@
+C:\Csharp\RideEasyApp-Assignment\bin\Debug\RideEasyApp-Assignment.exe.config
+C:\Csharp\RideEasyApp-Assignment\bin\Debug\RideEasyApp-Assignment.exe
+C:\Csharp\RideEasyApp-Assignment\bin\Debug\RideEasyApp-Assignment.pdb
+C:\Csharp\RideEasyApp-Assignment\obj\Debug\RideEasyApp-Assignment.csproj.AssemblyReference.cache
+C:\Csharp\RideEasyApp-Assignment\obj\Debug\RideEasyApp-Assignment.csproj.CoreCompileInputs.cache
+C:\Csharp\RideEasyApp-Assignment\obj\Debug\RideEasyApp-Assignment.exe
+C:\Csharp\RideEasyApp-Assignment\obj\Debug\RideEasyApp-Assignment.pdb
+C:\Csharp\RideEasyApp-Assignment\obj\Debug\RideEasyApp-Assignment.exe.config

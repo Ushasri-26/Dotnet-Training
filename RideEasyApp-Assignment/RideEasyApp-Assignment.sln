@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideEasyApp-Assignment", "RideEasyApp-Assignment.csproj", "{3388F353-8A5F-4C42-9A12-1A77EF08DB8A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3388F353-8A5F-4C42-9A12-1A77EF08DB8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3388F353-8A5F-4C42-9A12-1A77EF08DB8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3388F353-8A5F-4C42-9A12-1A77EF08DB8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3388F353-8A5F-4C42-9A12-1A77EF08DB8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2D876A-69D6-4A60-8521-2D7CF08EDEAF}
+	EndGlobalSection
+EndGlobal

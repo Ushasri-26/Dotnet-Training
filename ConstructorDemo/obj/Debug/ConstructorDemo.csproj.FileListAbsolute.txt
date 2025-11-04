@@ -1,0 +1,8 @@
+C:\Csharp\ConstructorDemo\bin\Debug\ConstructorDemo.exe.config
+C:\Csharp\ConstructorDemo\bin\Debug\ConstructorDemo.exe
+C:\Csharp\ConstructorDemo\bin\Debug\ConstructorDemo.pdb
+C:\Csharp\ConstructorDemo\obj\Debug\ConstructorDemo.csproj.AssemblyReference.cache
+C:\Csharp\ConstructorDemo\obj\Debug\ConstructorDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\ConstructorDemo\obj\Debug\ConstructorDemo.exe
+C:\Csharp\ConstructorDemo\obj\Debug\ConstructorDemo.pdb
+C:\Csharp\ConstructorDemo\obj\Debug\ConstructorDemo.exe.config

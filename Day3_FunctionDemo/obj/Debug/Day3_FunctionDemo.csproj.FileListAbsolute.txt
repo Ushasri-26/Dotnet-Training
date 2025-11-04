@@ -1,0 +1,8 @@
+C:\Csharp\Day3_FunctionDemo\bin\Debug\Day3_FunctionDemo.exe.config
+C:\Csharp\Day3_FunctionDemo\bin\Debug\Day3_FunctionDemo.exe
+C:\Csharp\Day3_FunctionDemo\bin\Debug\Day3_FunctionDemo.pdb
+C:\Csharp\Day3_FunctionDemo\obj\Debug\Day3_FunctionDemo.csproj.AssemblyReference.cache
+C:\Csharp\Day3_FunctionDemo\obj\Debug\Day3_FunctionDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\Day3_FunctionDemo\obj\Debug\Day3_FunctionDemo.exe
+C:\Csharp\Day3_FunctionDemo\obj\Debug\Day3_FunctionDemo.pdb
+C:\Csharp\Day3_FunctionDemo\obj\Debug\Day3_FunctionDemo.exe.config
