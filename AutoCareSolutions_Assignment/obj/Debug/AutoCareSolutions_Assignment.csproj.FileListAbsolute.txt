@@ -1,0 +1,8 @@
+C:\Csharp\AutoCareSolutions_Assignment\bin\Debug\AutoCareSolutions_Assignment.exe.config
+C:\Csharp\AutoCareSolutions_Assignment\bin\Debug\AutoCareSolutions_Assignment.exe
+C:\Csharp\AutoCareSolutions_Assignment\bin\Debug\AutoCareSolutions_Assignment.pdb
+C:\Csharp\AutoCareSolutions_Assignment\obj\Debug\AutoCareSolutions_Assignment.csproj.AssemblyReference.cache
+C:\Csharp\AutoCareSolutions_Assignment\obj\Debug\AutoCareSolutions_Assignment.csproj.CoreCompileInputs.cache
+C:\Csharp\AutoCareSolutions_Assignment\obj\Debug\AutoCareSolutions_Assignment.exe
+C:\Csharp\AutoCareSolutions_Assignment\obj\Debug\AutoCareSolutions_Assignment.pdb
+C:\Csharp\AutoCareSolutions_Assignment\obj\Debug\AutoCareSolutions_Assignment.exe.config

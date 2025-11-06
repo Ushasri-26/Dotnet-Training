@@ -1,0 +1,8 @@
+C:\Csharp\UtilityBillingSystem\bin\Debug\UtilityBillingSystem.exe.config
+C:\Csharp\UtilityBillingSystem\bin\Debug\UtilityBillingSystem.exe
+C:\Csharp\UtilityBillingSystem\bin\Debug\UtilityBillingSystem.pdb
+C:\Csharp\UtilityBillingSystem\obj\Debug\UtilityBillingSystem.csproj.AssemblyReference.cache
+C:\Csharp\UtilityBillingSystem\obj\Debug\UtilityBillingSystem.csproj.CoreCompileInputs.cache
+C:\Csharp\UtilityBillingSystem\obj\Debug\UtilityBillingSystem.exe
+C:\Csharp\UtilityBillingSystem\obj\Debug\UtilityBillingSystem.pdb
+C:\Csharp\UtilityBillingSystem\obj\Debug\UtilityBillingSystem.exe.config

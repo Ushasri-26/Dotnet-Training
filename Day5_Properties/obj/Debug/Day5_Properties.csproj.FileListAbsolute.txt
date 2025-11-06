@@ -1,0 +1,8 @@
+C:\Csharp\Day5_Properties\bin\Debug\Day5_Properties.exe.config
+C:\Csharp\Day5_Properties\bin\Debug\Day5_Properties.exe
+C:\Csharp\Day5_Properties\bin\Debug\Day5_Properties.pdb
+C:\Csharp\Day5_Properties\obj\Debug\Day5_Properties.csproj.AssemblyReference.cache
+C:\Csharp\Day5_Properties\obj\Debug\Day5_Properties.csproj.CoreCompileInputs.cache
+C:\Csharp\Day5_Properties\obj\Debug\Day5_Properties.exe
+C:\Csharp\Day5_Properties\obj\Debug\Day5_Properties.pdb
+C:\Csharp\Day5_Properties\obj\Debug\Day5_Properties.exe.config

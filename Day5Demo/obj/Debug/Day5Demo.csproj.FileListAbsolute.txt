@@ -1,0 +1,8 @@
+C:\Csharp\Day5Demo\bin\Debug\Day5Demo.exe.config
+C:\Csharp\Day5Demo\bin\Debug\Day5Demo.exe
+C:\Csharp\Day5Demo\bin\Debug\Day5Demo.pdb
+C:\Csharp\Day5Demo\obj\Debug\Day5Demo.csproj.AssemblyReference.cache
+C:\Csharp\Day5Demo\obj\Debug\Day5Demo.csproj.CoreCompileInputs.cache
+C:\Csharp\Day5Demo\obj\Debug\Day5Demo.exe
+C:\Csharp\Day5Demo\obj\Debug\Day5Demo.pdb
+C:\Csharp\Day5Demo\obj\Debug\Day5Demo.exe.config
