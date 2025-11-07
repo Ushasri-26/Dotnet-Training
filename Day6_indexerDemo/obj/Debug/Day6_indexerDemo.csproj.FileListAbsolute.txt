@@ -1,0 +1,8 @@
+C:\Csharp\Day6_indexerDemo\obj\Debug\Day6_indexerDemo.csproj.AssemblyReference.cache
+C:\Csharp\Day6_indexerDemo\obj\Debug\Day6_indexerDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\Day6_indexerDemo\bin\Debug\Day6_indexerDemo.exe.config
+C:\Csharp\Day6_indexerDemo\bin\Debug\Day6_indexerDemo.exe
+C:\Csharp\Day6_indexerDemo\bin\Debug\Day6_indexerDemo.pdb
+C:\Csharp\Day6_indexerDemo\obj\Debug\Day6_indexerDemo.exe
+C:\Csharp\Day6_indexerDemo\obj\Debug\Day6_indexerDemo.pdb
+C:\Csharp\Day6_indexerDemo\obj\Debug\Day6_indexerDemo.exe.config

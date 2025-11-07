@@ -1,0 +1,7 @@
+C:\Csharp\MultipleInheritance_demo\bin\Debug\MultipleInheritance_demo.exe.config
+C:\Csharp\MultipleInheritance_demo\bin\Debug\MultipleInheritance_demo.exe
+C:\Csharp\MultipleInheritance_demo\bin\Debug\MultipleInheritance_demo.pdb
+C:\Csharp\MultipleInheritance_demo\obj\Debug\MultipleInheritance_demo.csproj.AssemblyReference.cache
+C:\Csharp\MultipleInheritance_demo\obj\Debug\MultipleInheritance_demo.csproj.CoreCompileInputs.cache
+C:\Csharp\MultipleInheritance_demo\obj\Debug\MultipleInheritance_demo.exe
+C:\Csharp\MultipleInheritance_demo\obj\Debug\MultipleInheritance_demo.pdb

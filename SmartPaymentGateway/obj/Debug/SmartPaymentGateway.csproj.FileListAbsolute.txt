@@ -1,0 +1,8 @@
+C:\Csharp\SmartPaymentGateway\bin\Debug\SmartPaymentGateway.exe.config
+C:\Csharp\SmartPaymentGateway\bin\Debug\SmartPaymentGateway.exe
+C:\Csharp\SmartPaymentGateway\bin\Debug\SmartPaymentGateway.pdb
+C:\Csharp\SmartPaymentGateway\obj\Debug\SmartPaymentGateway.csproj.AssemblyReference.cache
+C:\Csharp\SmartPaymentGateway\obj\Debug\SmartPaymentGateway.csproj.CoreCompileInputs.cache
+C:\Csharp\SmartPaymentGateway\obj\Debug\SmartPaymentGateway.exe
+C:\Csharp\SmartPaymentGateway\obj\Debug\SmartPaymentGateway.pdb
+C:\Csharp\SmartPaymentGateway\obj\Debug\SmartPaymentGateway.exe.config

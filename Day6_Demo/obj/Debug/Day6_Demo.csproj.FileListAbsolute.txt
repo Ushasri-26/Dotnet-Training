@@ -1,0 +1,7 @@
+C:\Csharp\Day6_Demo\obj\Debug\Day6_Demo.csproj.AssemblyReference.cache
+C:\Csharp\Day6_Demo\obj\Debug\Day6_Demo.csproj.CoreCompileInputs.cache
+C:\Csharp\Day6_Demo\bin\Debug\Day6_Demo.exe.config
+C:\Csharp\Day6_Demo\bin\Debug\Day6_Demo.exe
+C:\Csharp\Day6_Demo\bin\Debug\Day6_Demo.pdb
+C:\Csharp\Day6_Demo\obj\Debug\Day6_Demo.exe
+C:\Csharp\Day6_Demo\obj\Debug\Day6_Demo.pdb
