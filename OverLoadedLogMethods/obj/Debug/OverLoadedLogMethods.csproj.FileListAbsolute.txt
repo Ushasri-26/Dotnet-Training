@@ -1,0 +1,8 @@
+C:\Csharp\OverLoadedLogMethods\bin\Debug\OverLoadedLogMethods.exe.config
+C:\Csharp\OverLoadedLogMethods\bin\Debug\OverLoadedLogMethods.exe
+C:\Csharp\OverLoadedLogMethods\bin\Debug\OverLoadedLogMethods.pdb
+C:\Csharp\OverLoadedLogMethods\obj\Debug\OverLoadedLogMethods.csproj.AssemblyReference.cache
+C:\Csharp\OverLoadedLogMethods\obj\Debug\OverLoadedLogMethods.csproj.CoreCompileInputs.cache
+C:\Csharp\OverLoadedLogMethods\obj\Debug\OverLoadedLogMethods.exe
+C:\Csharp\OverLoadedLogMethods\obj\Debug\OverLoadedLogMethods.pdb
+C:\Csharp\OverLoadedLogMethods\obj\Debug\OverLoadedLogMethods.exe.config

@@ -1,0 +1,8 @@
+C:\Csharp\ShippingApp\bin\Debug\ShippingApp.exe.config
+C:\Csharp\ShippingApp\bin\Debug\ShippingApp.exe
+C:\Csharp\ShippingApp\bin\Debug\ShippingApp.pdb
+C:\Csharp\ShippingApp\obj\Debug\ShippingApp.csproj.AssemblyReference.cache
+C:\Csharp\ShippingApp\obj\Debug\ShippingApp.csproj.CoreCompileInputs.cache
+C:\Csharp\ShippingApp\obj\Debug\ShippingApp.exe
+C:\Csharp\ShippingApp\obj\Debug\ShippingApp.pdb
+C:\Csharp\ShippingApp\obj\Debug\ShippingApp.exe.config

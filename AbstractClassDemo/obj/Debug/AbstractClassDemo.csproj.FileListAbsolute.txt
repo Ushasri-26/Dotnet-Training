@@ -1,0 +1,8 @@
+C:\Csharp\AbstractClassDemo\bin\Debug\AbstractClassDemo.exe.config
+C:\Csharp\AbstractClassDemo\bin\Debug\AbstractClassDemo.exe
+C:\Csharp\AbstractClassDemo\bin\Debug\AbstractClassDemo.pdb
+C:\Csharp\AbstractClassDemo\obj\Debug\AbstractClassDemo.csproj.AssemblyReference.cache
+C:\Csharp\AbstractClassDemo\obj\Debug\AbstractClassDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\AbstractClassDemo\obj\Debug\AbstractClassDemo.exe
+C:\Csharp\AbstractClassDemo\obj\Debug\AbstractClassDemo.pdb
+C:\Csharp\AbstractClassDemo\obj\Debug\AbstractClassDemo.exe.config

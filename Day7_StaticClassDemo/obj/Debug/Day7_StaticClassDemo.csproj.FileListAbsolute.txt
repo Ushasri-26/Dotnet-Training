@@ -1,0 +1,7 @@
+C:\Csharp\Day7_StaticClassDemo\bin\Debug\Day7_StaticClassDemo.exe.config
+C:\Csharp\Day7_StaticClassDemo\bin\Debug\Day7_StaticClassDemo.exe
+C:\Csharp\Day7_StaticClassDemo\bin\Debug\Day7_StaticClassDemo.pdb
+C:\Csharp\Day7_StaticClassDemo\obj\Debug\Day7_StaticClassDemo.csproj.AssemblyReference.cache
+C:\Csharp\Day7_StaticClassDemo\obj\Debug\Day7_StaticClassDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\Day7_StaticClassDemo\obj\Debug\Day7_StaticClassDemo.exe
+C:\Csharp\Day7_StaticClassDemo\obj\Debug\Day7_StaticClassDemo.pdb

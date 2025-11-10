@@ -1,0 +1,7 @@
+C:\Csharp\InterestCalculator\bin\Debug\InterestCalculator.exe.config
+C:\Csharp\InterestCalculator\bin\Debug\InterestCalculator.exe
+C:\Csharp\InterestCalculator\bin\Debug\InterestCalculator.pdb
+C:\Csharp\InterestCalculator\obj\Debug\InterestCalculator.csproj.AssemblyReference.cache
+C:\Csharp\InterestCalculator\obj\Debug\InterestCalculator.csproj.CoreCompileInputs.cache
+C:\Csharp\InterestCalculator\obj\Debug\InterestCalculator.exe
+C:\Csharp\InterestCalculator\obj\Debug\InterestCalculator.pdb

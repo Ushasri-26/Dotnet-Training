@@ -1,0 +1,7 @@
+C:\Csharp\CommerceCoreDemo\bin\Debug\CommerceCoreDemo.exe.config
+C:\Csharp\CommerceCoreDemo\bin\Debug\CommerceCoreDemo.exe
+C:\Csharp\CommerceCoreDemo\bin\Debug\CommerceCoreDemo.pdb
+C:\Csharp\CommerceCoreDemo\obj\Debug\CommerceCoreDemo.csproj.AssemblyReference.cache
+C:\Csharp\CommerceCoreDemo\obj\Debug\CommerceCoreDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\CommerceCoreDemo\obj\Debug\CommerceCoreDemo.exe
+C:\Csharp\CommerceCoreDemo\obj\Debug\CommerceCoreDemo.pdb
