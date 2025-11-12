@@ -1,0 +1,7 @@
+C:\Csharp\RestaurantOrderManagement\bin\Debug\RestaurantOrderManagement.exe.config
+C:\Csharp\RestaurantOrderManagement\bin\Debug\RestaurantOrderManagement.exe
+C:\Csharp\RestaurantOrderManagement\bin\Debug\RestaurantOrderManagement.pdb
+C:\Csharp\RestaurantOrderManagement\obj\Debug\RestaurantOrderManagement.csproj.AssemblyReference.cache
+C:\Csharp\RestaurantOrderManagement\obj\Debug\RestaurantOrderManagement.csproj.CoreCompileInputs.cache
+C:\Csharp\RestaurantOrderManagement\obj\Debug\RestaurantOrderManagement.exe
+C:\Csharp\RestaurantOrderManagement\obj\Debug\RestaurantOrderManagement.pdb

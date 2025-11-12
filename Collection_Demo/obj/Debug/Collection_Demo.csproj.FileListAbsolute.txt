@@ -1,0 +1,8 @@
+C:\Csharp\Collection_Demo\bin\Debug\Collection_Demo.exe.config
+C:\Csharp\Collection_Demo\bin\Debug\Collection_Demo.exe
+C:\Csharp\Collection_Demo\bin\Debug\Collection_Demo.pdb
+C:\Csharp\Collection_Demo\obj\Debug\Collection_Demo.csproj.AssemblyReference.cache
+C:\Csharp\Collection_Demo\obj\Debug\Collection_Demo.csproj.CoreCompileInputs.cache
+C:\Csharp\Collection_Demo\obj\Debug\Collection_Demo.exe
+C:\Csharp\Collection_Demo\obj\Debug\Collection_Demo.pdb
+C:\Csharp\Collection_Demo\obj\Debug\Collection_Demo.exe.config
