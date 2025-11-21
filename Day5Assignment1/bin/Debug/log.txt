@@ -1,0 +1,6 @@
+21-11-2025 16:13:16: Application started
+21-11-2025 16:13:16: User logged in
+21-11-2025 16:13:16: Error: Something went wrong!
+21-11-2025 16:22:13: Application started
+21-11-2025 16:22:13: User logged in
+21-11-2025 16:22:13: Error: Something went wrong!

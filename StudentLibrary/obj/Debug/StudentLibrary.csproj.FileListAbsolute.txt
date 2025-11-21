@@ -1,0 +1,6 @@
+C:\Csharp\StudentLibrary\bin\Debug\StudentLibrary.dll
+C:\Csharp\StudentLibrary\bin\Debug\StudentLibrary.pdb
+C:\Csharp\StudentLibrary\obj\Debug\StudentLibrary.csproj.AssemblyReference.cache
+C:\Csharp\StudentLibrary\obj\Debug\StudentLibrary.csproj.CoreCompileInputs.cache
+C:\Csharp\StudentLibrary\obj\Debug\StudentLibrary.dll
+C:\Csharp\StudentLibrary\obj\Debug\StudentLibrary.pdb

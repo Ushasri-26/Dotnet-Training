@@ -1,0 +1,8 @@
+C:\Csharp\SolidPrinciples\bin\Debug\SolidPrinciples.exe.config
+C:\Csharp\SolidPrinciples\bin\Debug\SolidPrinciples.exe
+C:\Csharp\SolidPrinciples\bin\Debug\SolidPrinciples.pdb
+C:\Csharp\SolidPrinciples\obj\Debug\SolidPrinciples.csproj.AssemblyReference.cache
+C:\Csharp\SolidPrinciples\obj\Debug\SolidPrinciples.csproj.CoreCompileInputs.cache
+C:\Csharp\SolidPrinciples\obj\Debug\SolidPrinciples.exe
+C:\Csharp\SolidPrinciples\obj\Debug\SolidPrinciples.pdb
+C:\Csharp\SolidPrinciples\obj\Debug\SolidPrinciples.exe.config

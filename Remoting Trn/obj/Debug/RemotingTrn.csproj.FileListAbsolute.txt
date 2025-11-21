@@ -1,0 +1,6 @@
+C:\Csharp\Remoting Trn\bin\Debug\Remoting Trn.dll
+C:\Csharp\Remoting Trn\bin\Debug\Remoting Trn.pdb
+C:\Csharp\Remoting Trn\obj\Debug\RemotingTrn.csproj.AssemblyReference.cache
+C:\Csharp\Remoting Trn\obj\Debug\RemotingTrn.csproj.CoreCompileInputs.cache
+C:\Csharp\Remoting Trn\obj\Debug\Remoting Trn.dll
+C:\Csharp\Remoting Trn\obj\Debug\Remoting Trn.pdb

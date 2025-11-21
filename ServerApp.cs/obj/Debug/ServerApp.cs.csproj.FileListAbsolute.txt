@@ -1,0 +1,13 @@
+C:\Csharp\ServerApp.cs\bin\Debug\ServerApp.cs.exe.config
+C:\Csharp\ServerApp.cs\bin\Debug\ServerApp.cs.exe
+C:\Csharp\ServerApp.cs\bin\Debug\ServerApp.cs.pdb
+C:\Csharp\ServerApp.cs\bin\Debug\RemotingLib.dll
+C:\Csharp\ServerApp.cs\bin\Debug\Remoting Trn.dll
+C:\Csharp\ServerApp.cs\bin\Debug\RemotingLib.pdb
+C:\Csharp\ServerApp.cs\bin\Debug\Remoting Trn.pdb
+C:\Csharp\ServerApp.cs\obj\Debug\ServerApp.cs.csproj.AssemblyReference.cache
+C:\Csharp\ServerApp.cs\obj\Debug\ServerApp.cs.csproj.CoreCompileInputs.cache
+C:\Csharp\ServerApp.cs\obj\Debug\ServerAp.F8CA96B0.Up2Date
+C:\Csharp\ServerApp.cs\obj\Debug\ServerApp.cs.exe
+C:\Csharp\ServerApp.cs\obj\Debug\ServerApp.cs.pdb
+C:\Csharp\ServerApp.cs\obj\Debug\ServerApp.cs.exe.config

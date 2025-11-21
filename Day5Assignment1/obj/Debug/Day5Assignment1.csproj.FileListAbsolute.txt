@@ -1,0 +1,8 @@
+C:\Csharp\Day5Assignment1\bin\Debug\Day5Assignment1.exe.config
+C:\Csharp\Day5Assignment1\bin\Debug\Day5Assignment1.exe
+C:\Csharp\Day5Assignment1\bin\Debug\Day5Assignment1.pdb
+C:\Csharp\Day5Assignment1\obj\Debug\Day5Assignment1.csproj.AssemblyReference.cache
+C:\Csharp\Day5Assignment1\obj\Debug\Day5Assignment1.csproj.CoreCompileInputs.cache
+C:\Csharp\Day5Assignment1\obj\Debug\Day5Assignment1.exe
+C:\Csharp\Day5Assignment1\obj\Debug\Day5Assignment1.pdb
+C:\Csharp\Day5Assignment1\obj\Debug\Day5Assignment1.exe.config

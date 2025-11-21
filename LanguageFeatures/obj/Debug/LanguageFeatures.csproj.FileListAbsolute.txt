@@ -1,0 +1,8 @@
+C:\Csharp\LanguageFeatures\bin\Debug\LanguageFeatures.exe.config
+C:\Csharp\LanguageFeatures\bin\Debug\LanguageFeatures.exe
+C:\Csharp\LanguageFeatures\bin\Debug\LanguageFeatures.pdb
+C:\Csharp\LanguageFeatures\obj\Debug\LanguageFeatures.csproj.AssemblyReference.cache
+C:\Csharp\LanguageFeatures\obj\Debug\LanguageFeatures.csproj.CoreCompileInputs.cache
+C:\Csharp\LanguageFeatures\obj\Debug\LanguageFeatures.exe
+C:\Csharp\LanguageFeatures\obj\Debug\LanguageFeatures.pdb
+C:\Csharp\LanguageFeatures\obj\Debug\LanguageFeatures.exe.config

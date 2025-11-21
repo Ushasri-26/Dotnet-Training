@@ -1,0 +1,11 @@
+C:\Csharp\RemotingServer\bin\Debug\RemotingServer.exe.config
+C:\Csharp\RemotingServer\bin\Debug\RemotingServer.exe
+C:\Csharp\RemotingServer\bin\Debug\RemotingServer.pdb
+C:\Csharp\RemotingServer\bin\Debug\StudentLibrary.dll
+C:\Csharp\RemotingServer\bin\Debug\StudentLibrary.pdb
+C:\Csharp\RemotingServer\obj\Debug\RemotingServer.csproj.AssemblyReference.cache
+C:\Csharp\RemotingServer\obj\Debug\RemotingServer.csproj.CoreCompileInputs.cache
+C:\Csharp\RemotingServer\obj\Debug\Remoting.E1AF2E13.Up2Date
+C:\Csharp\RemotingServer\obj\Debug\RemotingServer.exe
+C:\Csharp\RemotingServer\obj\Debug\RemotingServer.pdb
+C:\Csharp\RemotingServer\obj\Debug\RemotingServer.exe.config

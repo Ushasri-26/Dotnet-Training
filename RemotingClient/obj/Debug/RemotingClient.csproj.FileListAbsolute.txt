@@ -1,0 +1,11 @@
+C:\Csharp\RemotingClient\bin\Debug\RemotingClient.exe.config
+C:\Csharp\RemotingClient\bin\Debug\RemotingClient.exe
+C:\Csharp\RemotingClient\bin\Debug\RemotingClient.pdb
+C:\Csharp\RemotingClient\bin\Debug\StudentLibrary.dll
+C:\Csharp\RemotingClient\bin\Debug\StudentLibrary.pdb
+C:\Csharp\RemotingClient\obj\Debug\RemotingClient.csproj.AssemblyReference.cache
+C:\Csharp\RemotingClient\obj\Debug\RemotingClient.csproj.CoreCompileInputs.cache
+C:\Csharp\RemotingClient\obj\Debug\Remoting.2CA0D7E6.Up2Date
+C:\Csharp\RemotingClient\obj\Debug\RemotingClient.exe
+C:\Csharp\RemotingClient\obj\Debug\RemotingClient.pdb
+C:\Csharp\RemotingClient\obj\Debug\RemotingClient.exe.config

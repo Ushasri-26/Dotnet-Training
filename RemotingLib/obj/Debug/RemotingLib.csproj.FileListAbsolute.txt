@@ -1,0 +1,9 @@
+C:\Csharp\RemotingLib\bin\Debug\RemotingLib.dll
+C:\Csharp\RemotingLib\bin\Debug\RemotingLib.pdb
+C:\Csharp\RemotingLib\bin\Debug\Remoting Trn.dll
+C:\Csharp\RemotingLib\bin\Debug\Remoting Trn.pdb
+C:\Csharp\RemotingLib\obj\Debug\RemotingLib.csproj.AssemblyReference.cache
+C:\Csharp\RemotingLib\obj\Debug\RemotingLib.csproj.CoreCompileInputs.cache
+C:\Csharp\RemotingLib\obj\Debug\Remoting.F9DF2369.Up2Date
+C:\Csharp\RemotingLib\obj\Debug\RemotingLib.dll
+C:\Csharp\RemotingLib\obj\Debug\RemotingLib.pdb

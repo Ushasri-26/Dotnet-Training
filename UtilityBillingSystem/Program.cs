@@ -33,14 +33,14 @@ namespace UtilityBillingSystem
                 double usage = bill.GetTotalUsage(r1, r2, r3);
                 bill.CalculateBill(usage, out double total, out double tax, out double netPay);
                 Console.WriteLine();
-                Console.WriteLine("\n==========Utility Bill==========");
+                Console.WriteLine("\n==============Utility Bill==============");
                 Console.WriteLine("Customer ID: " + bill.CustomerID);
                 Console.WriteLine("Customer Name: " + bill.CustomerName);
                 Console.WriteLine("Service Charge: " + UtilityBill.ServiceCharge.ToString("F2"));
                 Console.WriteLine("Total Usage    : Rs." + total.ToString("F2"));
                 Console.WriteLine("Tax Applied    : Rs." + tax.ToString("F2"));
                 Console.WriteLine("Net Payable    : Rs." + netPay.ToString("F2"));
-                Console.WriteLine("=====================================");
+                Console.WriteLine("================================");
             }
             Console.WriteLine() ;
             Console.WriteLine("\nAll customers bill processed successfully!");

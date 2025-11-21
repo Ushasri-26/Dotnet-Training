@@ -1,0 +1,8 @@
+C:\Csharp\Features\bin\Debug\Features.exe.config
+C:\Csharp\Features\bin\Debug\Features.exe
+C:\Csharp\Features\bin\Debug\Features.pdb
+C:\Csharp\Features\obj\Debug\Features.csproj.AssemblyReference.cache
+C:\Csharp\Features\obj\Debug\Features.csproj.CoreCompileInputs.cache
+C:\Csharp\Features\obj\Debug\Features.exe
+C:\Csharp\Features\obj\Debug\Features.pdb
+C:\Csharp\Features\obj\Debug\Features.exe.config
