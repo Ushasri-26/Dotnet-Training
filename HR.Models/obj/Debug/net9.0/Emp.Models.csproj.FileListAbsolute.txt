@@ -1,0 +1,12 @@
+C:\Csharp\HR.Models\bin\Debug\net9.0\Emp.Models.deps.json
+C:\Csharp\HR.Models\bin\Debug\net9.0\Emp.Models.dll
+C:\Csharp\HR.Models\bin\Debug\net9.0\Emp.Models.pdb
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.AssemblyInfoInputs.cache
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.AssemblyInfo.cs
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.csproj.CoreCompileInputs.cache
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.sourcelink.json
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.dll
+C:\Csharp\HR.Models\obj\Debug\net9.0\refint\Emp.Models.dll
+C:\Csharp\HR.Models\obj\Debug\net9.0\Emp.Models.pdb
+C:\Csharp\HR.Models\obj\Debug\net9.0\ref\Emp.Models.dll

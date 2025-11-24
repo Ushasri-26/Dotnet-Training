@@ -1,0 +1,12 @@
+C:\Csharp\CodingAssessment3\bin\Debug\net9.0\CodingAssessment3.deps.json
+C:\Csharp\CodingAssessment3\bin\Debug\net9.0\CodingAssessment3.dll
+C:\Csharp\CodingAssessment3\bin\Debug\net9.0\CodingAssessment3.pdb
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.AssemblyInfoInputs.cache
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.AssemblyInfo.cs
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.csproj.CoreCompileInputs.cache
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.sourcelink.json
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.dll
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\refint\CodingAssessment3.dll
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\CodingAssessment3.pdb
+C:\Csharp\CodingAssessment3\obj\Debug\net9.0\ref\CodingAssessment3.dll

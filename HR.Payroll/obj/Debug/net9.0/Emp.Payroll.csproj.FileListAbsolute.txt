@@ -1,0 +1,16 @@
+C:\Csharp\HR.Payroll\bin\Debug\net9.0\Emp.Payroll.deps.json
+C:\Csharp\HR.Payroll\bin\Debug\net9.0\Emp.Payroll.dll
+C:\Csharp\HR.Payroll\bin\Debug\net9.0\Emp.Payroll.pdb
+C:\Csharp\HR.Payroll\bin\Debug\net9.0\Emp.Models.dll
+C:\Csharp\HR.Payroll\bin\Debug\net9.0\Emp.Models.pdb
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.csproj.AssemblyReference.cache
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.AssemblyInfoInputs.cache
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.AssemblyInfo.cs
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.csproj.CoreCompileInputs.cache
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.sourcelink.json
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payr.F2ED3630.Up2Date
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.dll
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\refint\Emp.Payroll.dll
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\Emp.Payroll.pdb
+C:\Csharp\HR.Payroll\obj\Debug\net9.0\ref\Emp.Payroll.dll

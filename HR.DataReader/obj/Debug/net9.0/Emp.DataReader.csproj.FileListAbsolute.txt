@@ -1,0 +1,16 @@
+C:\Csharp\HR.DataReader\bin\Debug\net9.0\Emp.DataReader.deps.json
+C:\Csharp\HR.DataReader\bin\Debug\net9.0\Emp.DataReader.dll
+C:\Csharp\HR.DataReader\bin\Debug\net9.0\Emp.DataReader.pdb
+C:\Csharp\HR.DataReader\bin\Debug\net9.0\Emp.Models.dll
+C:\Csharp\HR.DataReader\bin\Debug\net9.0\Emp.Models.pdb
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.csproj.AssemblyReference.cache
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.AssemblyInfoInputs.cache
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.AssemblyInfo.cs
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.csproj.CoreCompileInputs.cache
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.sourcelink.json
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.Data.62143E5D.Up2Date
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.dll
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\refint\Emp.DataReader.dll
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\Emp.DataReader.pdb
+C:\Csharp\HR.DataReader\obj\Debug\net9.0\ref\Emp.DataReader.dll
