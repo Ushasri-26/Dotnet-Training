@@ -1,0 +1,8 @@
+C:\Csharp\ADONET\bin\Debug\ADONET.exe.config
+C:\Csharp\ADONET\bin\Debug\ADONET.exe
+C:\Csharp\ADONET\bin\Debug\ADONET.pdb
+C:\Csharp\ADONET\obj\Debug\ADONET.csproj.AssemblyReference.cache
+C:\Csharp\ADONET\obj\Debug\ADONET.csproj.CoreCompileInputs.cache
+C:\Csharp\ADONET\obj\Debug\ADONET.exe
+C:\Csharp\ADONET\obj\Debug\ADONET.pdb
+C:\Csharp\ADONET\obj\Debug\ADONET.exe.config

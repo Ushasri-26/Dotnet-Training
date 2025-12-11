@@ -1,0 +1,8 @@
+C:\Csharp\adonetprj\bin\Debug\adonetprj.exe.config
+C:\Csharp\adonetprj\bin\Debug\adonetprj.exe
+C:\Csharp\adonetprj\bin\Debug\adonetprj.pdb
+C:\Csharp\adonetprj\obj\Debug\adonetprj.csproj.AssemblyReference.cache
+C:\Csharp\adonetprj\obj\Debug\adonetprj.csproj.CoreCompileInputs.cache
+C:\Csharp\adonetprj\obj\Debug\adonetprj.exe
+C:\Csharp\adonetprj\obj\Debug\adonetprj.pdb
+C:\Csharp\adonetprj\obj\Debug\adonetprj.exe.config

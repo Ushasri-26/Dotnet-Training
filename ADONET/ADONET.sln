@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADONET", "ADONET.csproj", "{AED373F6-3CDB-463B-ADD2-A94D5AA0D65B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AED373F6-3CDB-463B-ADD2-A94D5AA0D65B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED373F6-3CDB-463B-ADD2-A94D5AA0D65B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED373F6-3CDB-463B-ADD2-A94D5AA0D65B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED373F6-3CDB-463B-ADD2-A94D5AA0D65B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2067FC41-9A50-4D7A-BDB7-634801A4D8C1}
+	EndGlobalSection
+EndGlobal
