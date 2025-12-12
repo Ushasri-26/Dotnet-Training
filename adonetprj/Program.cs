@@ -32,8 +32,6 @@ namespace adonetprj
             //ob.Demo2();
             //ob.Demo3();
             //ob.Demo4();
-            Linqdemo ob = new Linqdemo();
-            ob.MoviesbyPrabhas();
             Console.ReadLine();
         }
     }

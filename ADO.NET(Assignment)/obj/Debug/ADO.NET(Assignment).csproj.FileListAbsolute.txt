@@ -1,0 +1,8 @@
+C:\Csharp\ADO.NET(Assignment)\bin\Debug\ADO.NET(Assignment).exe.config
+C:\Csharp\ADO.NET(Assignment)\bin\Debug\ADO.NET(Assignment).exe
+C:\Csharp\ADO.NET(Assignment)\bin\Debug\ADO.NET(Assignment).pdb
+C:\Csharp\ADO.NET(Assignment)\obj\Debug\ADO.NET(Assignment).csproj.AssemblyReference.cache
+C:\Csharp\ADO.NET(Assignment)\obj\Debug\ADO.NET(Assignment).csproj.CoreCompileInputs.cache
+C:\Csharp\ADO.NET(Assignment)\obj\Debug\ADO.NET(Assignment).exe
+C:\Csharp\ADO.NET(Assignment)\obj\Debug\ADO.NET(Assignment).pdb
+C:\Csharp\ADO.NET(Assignment)\obj\Debug\ADO.NET(Assignment).exe.config
