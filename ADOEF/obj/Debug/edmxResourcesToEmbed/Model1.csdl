@@ -56,5 +56,73 @@
       <End Role="Department" EntitySet="Departments" />
       <End Role="Employee" EntitySet="Employees" />
     </AssociationSet>
+    <FunctionImport Name="GetEmployees" ReturnType="Collection(infinitedbModel.GetEmployees_Result)">
+      <Parameter Name="startDate" Mode="In" Type="DateTime" />
+      <Parameter Name="endDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="showbysal" ReturnType="Collection(infinitedbModel.showbysal_Result)">
+      <Parameter Name="salary" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_EmployeeDates" ReturnType="Collection(infinitedbModel.sp_EmployeeDates_Result)">
+      <Parameter Name="d1" Mode="In" Type="DateTime" />
+      <Parameter Name="d2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_getemp" ReturnType="Collection(infinitedbModel.sp_getemp_Result)">
+      <Parameter Name="d" Mode="In" Type="Int32" />
+      <Parameter Name="sal" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetEmployeeDet">
+      <Parameter Name="Empid" Mode="In" Type="Int32" />
+      <Parameter Name="DateofJoin" Mode="InOut" Type="DateTime" />
+      <Parameter Name="DeptId" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_GetEmployeesBetweenDates" ReturnType="Collection(infinitedbModel.sp_GetEmployeesBetweenDates_Result)">
+      <Parameter Name="d1" Mode="In" Type="DateTime" />
+      <Parameter Name="d2" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="usp_GetCoursesBySemester" ReturnType="Collection(infinitedbModel.usp_GetCoursesBySemester_Result)">
+      <Parameter Name="semester" Mode="In" Type="String" />
+    </FunctionImport>
   </EntityContainer>
+  <ComplexType Name="GetEmployees_Result">
+    <Property Type="Int32" Name="EmpID" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+    <Property Type="Int32" Name="DeptID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="showbysal_Result">
+    <Property Type="Int32" Name="EmpID" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+    <Property Type="Int32" Name="DeptID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_EmployeeDates_Result">
+    <Property Type="Int32" Name="EmpID" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+    <Property Type="Int32" Name="DeptID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_getemp_Result">
+    <Property Type="Int32" Name="EmpID" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+    <Property Type="Int32" Name="DeptID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_GetEmployeesBetweenDates_Result">
+    <Property Type="Int32" Name="EmpID" Nullable="false" />
+    <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+    <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+    <Property Type="Int32" Name="DeptID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="usp_GetCoursesBySemester_Result">
+    <Property Type="Int32" Name="CourseId" Nullable="false" />
+    <Property Type="String" Name="CourseName" Nullable="false" MaxLength="100" />
+    <Property Type="Int32" Name="Credits" Nullable="false" />
+    <Property Type="String" Name="Semester" Nullable="false" MaxLength="20" />
+  </ComplexType>
 </Schema>

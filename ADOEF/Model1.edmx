@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="infinitedbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="infinitedbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Department">
           <Key>
             <PropertyRef Name="DeptID" />
@@ -46,6 +46,33 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="GetEmployees" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="startDate" Type="date" Mode="In" />
+          <Parameter Name="endDate" Type="date" Mode="In" />
+        </Function>
+        <Function Name="showbysal" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="salary" Type="decimal" Mode="In" />
+        </Function>
+        <Function Name="sp_EmployeeDates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="d1" Type="date" Mode="In" />
+          <Parameter Name="d2" Type="date" Mode="In" />
+        </Function>
+        <Function Name="sp_getemp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="d" Type="int" Mode="In" />
+          <Parameter Name="sal" Type="decimal" Mode="In" />
+        </Function>
+        <Function Name="sp_GetEmployeeDet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Empid" Type="int" Mode="In" />
+          <Parameter Name="DateofJoin" Type="date" Mode="InOut" />
+          <Parameter Name="DeptId" Type="int" Mode="InOut" />
+        </Function>
+        <Function Name="sp_GetEmployeesBetweenDates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="d1" Type="date" Mode="In" />
+          <Parameter Name="d2" Type="date" Mode="In" />
+        </Function>
+        <Function Name="usp_GetCoursesBySemester" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="semester" Type="varchar" Mode="In" />
+        </Function>
         <EntityContainer Name="infinitedbModelStoreContainer">
           <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
@@ -58,8 +85,7 @@
             <End Role="Employee" EntitySet="Employee" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="infinitedbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -119,7 +145,75 @@
             <End Role="Department" EntitySet="Departments" />
             <End Role="Employee" EntitySet="Employees" />
           </AssociationSet>
+          <FunctionImport Name="GetEmployees" ReturnType="Collection(infinitedbModel.GetEmployees_Result)">
+            <Parameter Name="startDate" Mode="In" Type="DateTime" />
+            <Parameter Name="endDate" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="showbysal" ReturnType="Collection(infinitedbModel.showbysal_Result)">
+            <Parameter Name="salary" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="sp_EmployeeDates" ReturnType="Collection(infinitedbModel.sp_EmployeeDates_Result)">
+            <Parameter Name="d1" Mode="In" Type="DateTime" />
+            <Parameter Name="d2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="sp_getemp" ReturnType="Collection(infinitedbModel.sp_getemp_Result)">
+            <Parameter Name="d" Mode="In" Type="Int32" />
+            <Parameter Name="sal" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="sp_GetEmployeeDet">
+            <Parameter Name="Empid" Mode="In" Type="Int32" />
+            <Parameter Name="DateofJoin" Mode="InOut" Type="DateTime" />
+            <Parameter Name="DeptId" Mode="InOut" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="sp_GetEmployeesBetweenDates" ReturnType="Collection(infinitedbModel.sp_GetEmployeesBetweenDates_Result)">
+            <Parameter Name="d1" Mode="In" Type="DateTime" />
+            <Parameter Name="d2" Mode="In" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="usp_GetCoursesBySemester" ReturnType="Collection(infinitedbModel.usp_GetCoursesBySemester_Result)">
+            <Parameter Name="semester" Mode="In" Type="String" />
+          </FunctionImport>
         </EntityContainer>
+        <ComplexType Name="GetEmployees_Result">
+          <Property Type="Int32" Name="EmpID" Nullable="false" />
+          <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+          <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+          <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+          <Property Type="Int32" Name="DeptID" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="showbysal_Result">
+          <Property Type="Int32" Name="EmpID" Nullable="false" />
+          <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+          <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+          <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+          <Property Type="Int32" Name="DeptID" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_EmployeeDates_Result">
+          <Property Type="Int32" Name="EmpID" Nullable="false" />
+          <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+          <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+          <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+          <Property Type="Int32" Name="DeptID" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_getemp_Result">
+          <Property Type="Int32" Name="EmpID" Nullable="false" />
+          <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+          <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+          <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+          <Property Type="Int32" Name="DeptID" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="sp_GetEmployeesBetweenDates_Result">
+          <Property Type="Int32" Name="EmpID" Nullable="false" />
+          <Property Type="String" Name="EmpName" Nullable="true" MaxLength="100" />
+          <Property Type="Decimal" Name="Salary" Nullable="true" Precision="10" Scale="2" />
+          <Property Type="DateTime" Name="DateOfJoin" Nullable="true" />
+          <Property Type="Int32" Name="DeptID" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="usp_GetCoursesBySemester_Result">
+          <Property Type="Int32" Name="CourseId" Nullable="false" />
+          <Property Type="String" Name="CourseName" Nullable="false" MaxLength="100" />
+          <Property Type="Int32" Name="Credits" Nullable="false" />
+          <Property Type="String" Name="Semester" Nullable="false" MaxLength="20" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -145,6 +239,72 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="GetEmployees" FunctionName="infinitedbModel.Store.GetEmployees">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="infinitedbModel.GetEmployees_Result">
+                <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="DateOfJoin" ColumnName="DateOfJoin" />
+                <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="showbysal" FunctionName="infinitedbModel.Store.showbysal">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="infinitedbModel.showbysal_Result">
+                <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="DateOfJoin" ColumnName="DateOfJoin" />
+                <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_EmployeeDates" FunctionName="infinitedbModel.Store.sp_EmployeeDates">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="infinitedbModel.sp_EmployeeDates_Result">
+                <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="DateOfJoin" ColumnName="DateOfJoin" />
+                <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_getemp" FunctionName="infinitedbModel.Store.sp_getemp">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="infinitedbModel.sp_getemp_Result">
+                <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="DateOfJoin" ColumnName="DateOfJoin" />
+                <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="sp_GetEmployeeDet" FunctionName="infinitedbModel.Store.sp_GetEmployeeDet" />
+          <FunctionImportMapping FunctionImportName="sp_GetEmployeesBetweenDates" FunctionName="infinitedbModel.Store.sp_GetEmployeesBetweenDates">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="infinitedbModel.sp_GetEmployeesBetweenDates_Result">
+                <ScalarProperty Name="EmpID" ColumnName="EmpID" />
+                <ScalarProperty Name="EmpName" ColumnName="EmpName" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="DateOfJoin" ColumnName="DateOfJoin" />
+                <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="usp_GetCoursesBySemester" FunctionName="infinitedbModel.Store.usp_GetCoursesBySemester">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="infinitedbModel.usp_GetCoursesBySemester_Result">
+                <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+                <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+                <ScalarProperty Name="Credits" ColumnName="Credits" />
+                <ScalarProperty Name="Semester" ColumnName="Semester" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

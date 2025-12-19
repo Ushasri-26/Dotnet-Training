@@ -1,0 +1,69 @@
+studentname
+age 
+address
+phone 
+class
+teachername
+teacherexperiance
+teachersalary 
+coursename 
+fees 
+duration
+------------------------------------------------------------------
+
+STUDENT Table
+---------------
+Student_id  Student name  age   address   phone       class   
+
+1           Usha          17   Vizag     9988776644   12
+2           Arjun         15   Bangalore 9876543210   10
+
+TEACHER Table
+----------------
+teacher_id   teacher name  teacher experience   teacher salary
+101          Mr. Aniket   15 years            95000
+102          Mr. Srinivas  12 years            65000
+
+COURSE Table
+-----------------
+course_id    course name   fees    duration 
+201          Mathematics  5000    3 months   
+202          English      7000    2 months   
+
+TEACHES Table
+--------------
+taecher_id     course_id
+101            201
+102            202
+
+STUDENT Course
+------------------
+student_id      course_id
+1               201
+2               202
+-----------------------------------------------------------------------
+empid 
+empname
+salary
+dob
+experience
+managername 
+departmentname
+houserent(10%)
+--------------------------------------
+EMPLOYEE Table
+---------------
+empid (PK)  emp name	salary	 dob	   experience	department_id (FK)	manager_id (FK)
+1           Monika      50000   08-02-2002 1 year       IT                      1806851
+
+DEPARTMENT Table
+-----------------
+department_id (PK)     departmentname    manager id
+10                       HR              1234
+20                       IT              5678
+
+MANAGER Table
+-----------------
+manager_id (PK) 	managername
+100                     Mr.Aniketh
+101                     Mr.Srinivas

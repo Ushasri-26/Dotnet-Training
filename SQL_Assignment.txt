@@ -1,0 +1,152 @@
+Assignment
+==========
+Customers Table:
+-----------------
+create table customers (
+custid INT PRIMARY KEY,
+custname VARCHAR(50),
+age INT,
+caddress VARCHAR(50),
+cphone VARCHAR(20)
+);
+Orders table:
+-----------------------
+create table orders(
+custid INT,
+orderid INT PRIMARY KEY,
+orderdate DATE,
+product VARCHAR(50),
+price DECIMAL(10,2),
+qty INT,
+FOREIGN KEY (custid) REFERENCES customers(custid)
+);
+
+Inserting Values(Customers)
+------------------------------------------------
+INSERT INTO customers VALUES
+(1,'Usha sri',22,'Vizag',9876543210),
+(2,'Uday Kiran',25,'Hyderabad',6281341892),
+(3,'Bhavya',20,'Guntur',9398986754),
+(4,'Ravi',31,'Hyderabad',9818998899),
+(5,'Anurag',21,'Ongole',8075432145),
+(6,'Satwik',20,'Bangalore',9398765420),
+(7,'Sravani',26,'Pune',8976543270),
+(8,'Pooji',22,'Chennai',9087654320),
+(9,'Srinivas',54,'Mumbai',9498970596);
+--------------------------------------------------
+Inserting values(Orders)
+--------------------------------------------------
+INSERT INTO orders VALUES
+(1,100,'2025-11-25','Books', 120,3),
+(2,101,'2024-08-02','Earpods', 5000,1),
+(3,102,'2023-10-25','Laptop', 75000,1),
+(4,103,'1999-01-25','Mobile', 125000,1),
+(5,104,'2018-03-25','Keyboard', 12000,2),
+(6,105,'2020-05-25','Chairs', 4000,6),
+(7,106,'2023-07-25','Camera', 150000,1),
+(8,107,'2005-12-25','Pens', 300,15),
+(9,108,'2022-02-25','Bag', 10000,4);
+---------------------------------------------------
+1. Display the list of customers who resides in Bangalore
+QUERY: select * from customers where caddress='Bangalore';
+
+2.Display the list of customers who does not resides in Bangalore or 
+chennai 
+QUERY: select * from customers where caddress NOT IN ('Bangalore','Chennai');
+
+3. Display the list of customers who’s age is greater then 50 and does not 
+resides in Bangalore 
+QUERY: select * from customers where age>50 AND caddress NOT IN ('Bangalore');
+
+4. Display the list of customers who’s name starts with A 
+QUERY:select * from customers where custname LIKE 'A%';
+
+5. Display the list of customers who’s name contains a word Br
+QUERY: select * from customers where custname LIKE '%Br%';
+
+6. Display the list of customer who’s name start between a to k  
+QUERY: select * from customers where custname LIKE '[A-K]%';
+
+7. Display the list of customers who’s name is 5 character long 
+QUERY: select * from customers where custname LIKE '_____';
+
+8. Display the list of customer who’s name  
+a. Start with s 
+QUERY: select * from customers where custname LIKE 'S%';
+
+b. Third character is c 
+QUERY: select * from customers where custname LIKE '__C%';
+
+c. Ends with e 
+QUERY: select * from customers where custname LIKE '%E';
+
+9. Display unique customer names from customers table
+QUERY: select DISTINCT custname from customers;
+
+10. List orders details where qty falling in the range 100-200  and 700-1200 
+QUERY:select * from orders where qty between 100 and 200 OR qty between 700 and 1200;
+
+11.  List customer details where custname beginning with AL and ending 
+with N 
+QUERY:select * from customers where custname LIKE 'AL%N';
+ 
+12. Display what each  price would be if a 20% price increase were to take 
+place. Show the custid , old price and new price ,using meaningful 
+headings(use orders table)  
+QUERY: select custid,price AS OldPrice,price * 1.20 AS NewPrice from orders;
+
+13. Display top 3 highest qty from orders table 
+QUERY: select TOP 3 * from orders ORDER BY qty DESC;
+
+14. Display how many times customers have purchased a product (display 
+count and customerid from orders table)
+QUERY:select custid,COUNT(*) AS PurchaseCount from orders GROUP BY custid;
+ 
+15. Display the list of orders who’s orders made earlier then 5 years from 
+now 
+QUERY:select * from orders where orderdate < DATEADD(YEAR, -5, GETDATE());
+
+16.  Select * from customers where custname is null 
+QUERY:select * from customers where custname IS NULL;
+
+17.  Display orderdetails in following format 
+OrderID-Date Total(price*qty) 
+100-1/1/2000 500 
+QUERY:select CONCAT(orderid, '-', FORMAT(orderdate, 'dd/MM/yyyy')) AS [OrderID-Date],(price*qty) AS Total from orders;
+
+ 
+18.  Update orders table by decreasing price by 20% for qty > 50 
+QUERY:UPDATE orders SET price=price*0.80 where qty>50;
+
+19. You want to retrieve data for all the orders who made order  '1-12-90' 
+having price 4000 – 6000 and sort the column in descending order on 
+price 
+QUERY:select * from orders where orderdate = '1990-12-01' and price between 4000 and 6000 ORDER BY price DESC;
+ 
+20. Display order details in following format 
+Custid Price (sum of price) Count (count of qty) 
+1 5000 3 
+2 4000 9 
+3 6700 6 
+QUERY:select custid,SUM(price) AS TotalPrice,SUM(qty) AS TotalQuantity from orders GROUP BY custid;
+
+21. Display above details only for price > 4000 
+QUERY:select custid,SUM(price) AS TotalPrice,SUM(qty) AS TotalQtyCount from orders GROUP BY custid HAVING SUM(price)>4000;
+
+22. Write a query to create duplicate table of customer , and name it as 
+custhistory 
+QUERY: select * INTO custhistory from customers;
+
+a. Delete all the records of custhistory 
+QUERY:DELETE from custhistory;
+
+
+b. Copy records of customers to custhistory where age > 30
+QUERY: INSERT INTO custhistory select * from customers where age>30;
+
+
+
+
+
+
+

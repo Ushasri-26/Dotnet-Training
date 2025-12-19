@@ -15,11 +15,29 @@ namespace ADOEF
 
             var res = from t in dc.Employees
                       select t;
+            //by default when u write a linq query it will also load related data
+            //is it possible => it should not load related data
+            //we can done it by lazy loading + eager loading
+            //lazy loading:
+            var res1 = from t in dc.Departments
+                       select t;
+            //or we can use joins to dispaly both emp and dept
 
-            foreach (var e in res)
+            //foreach (var e in res)
+            //{
+            //    Console.WriteLine($"{e.EmpID} {e.EmpName} {e.DateOfJoin} {e.Salary} {e.DeptID}");
+            //    Console.WriteLine("===============");
+            //    Console.WriteLine(e.newDepartment.DeptID + " " + e.newDepartment.DeptName);
+            //    Console.WriteLine("============");
+            //}
+            foreach (var item in res1)
             {
-                Console.WriteLine($"{e.EmpID}  {e.EmpName}  {e.DateOfJoin}  {e.Salary}  {e.DeptID}");
-                Console.WriteLine("========================");
+                Console.WriteLine(item.DeptName);
+                foreach (var item1 in item.Employees)
+                {
+                    Console.WriteLine(item1.EmpName + " " + item1.Salary);
+                }
+                Console.WriteLine("============");
             }
 
         }
@@ -135,6 +153,46 @@ namespace ADOEF
             foreach (var e in res)
             {
                 Console.WriteLine($"{e.EmpID}  {e.EmpName}  {e.Salary}  {e.BonusSalary}");
+            }
+        }
+        public void SqlqueryDemo()
+        {
+            // how to write sql query?
+
+            // use this query only for display records
+            // insert update and delete
+            var res = dc.Database.SqlQuery<Employee>("select * from employee where empname like 'm%'");
+
+            foreach (var e in res)
+            {
+                Console.WriteLine($"{e.EmpID}  {e.EmpName}  {e.DateOfJoin}  {e.Salary}  {e.DeptID}");
+                Console.WriteLine("========================");
+            }
+
+        }
+
+
+        public void DMLDemo()
+        {
+            // connected architecture
+
+
+            // for insert update and delete use this
+            int ra = dc.Database.ExecuteSqlCommand("delete from employee where  empname like 'ra%'");
+            Console.WriteLine("total records deleted " + ra);
+        }
+
+        public void spdemo()
+        {
+            // how to call the procedures?
+            // use procedure when u are using join and subqueries heavily
+
+
+            var res = dc.showbysal(60000);
+            foreach (var e in res)
+            {
+                Console.WriteLine($"{e.EmpID}  {e.EmpName}  {e.DateOfJoin}  {e.Salary}  {e.DeptID}");
+                Console.WriteLine("========================");
             }
 
         }

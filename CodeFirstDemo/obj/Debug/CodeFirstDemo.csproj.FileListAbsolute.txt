@@ -1,0 +1,13 @@
+C:\Csharp\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe.config
+C:\Csharp\CodeFirstDemo\bin\Debug\CodeFirstDemo.exe
+C:\Csharp\CodeFirstDemo\bin\Debug\CodeFirstDemo.pdb
+C:\Csharp\CodeFirstDemo\bin\Debug\EntityFramework.dll
+C:\Csharp\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Csharp\CodeFirstDemo\bin\Debug\EntityFramework.xml
+C:\Csharp\CodeFirstDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Csharp\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.AssemblyReference.cache
+C:\Csharp\CodeFirstDemo\obj\Debug\CodeFirstDemo.csproj.CoreCompileInputs.cache
+C:\Csharp\CodeFirstDemo\obj\Debug\CodeFirs.5DDB1A93.Up2Date
+C:\Csharp\CodeFirstDemo\obj\Debug\CodeFirstDemo.exe
+C:\Csharp\CodeFirstDemo\obj\Debug\CodeFirstDemo.pdb
+C:\Csharp\CodeFirstDemo\obj\Debug\CodeFirstDemo.exe.config

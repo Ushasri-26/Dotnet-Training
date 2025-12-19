@@ -1,0 +1,89 @@
+                   SQL
+26-11-2025
+==========
+MDF: Master data file: all data are stored physically in mdf file
+
+Every time you write query it reads mdf and converts to table format and displays to user
+LDF : Log data file(transaction)
+
+DBMS Architecture:
+External Schema
+Conceptual
+Internal(Physical storage)
+
+1.Analysis services : reading data from diff tables, where each table having huge number of records and u want to join many tables at a time
+2.Integration services : data transfer(from 1 source to other) sql to oracle
+3.Reporting services : display data in reports (charts, pdf, format)
+4.Database Engine : U can create tables, queries, database, procedure
+
+Authentication:
+1.SQL Authentication
+2.Windows Authentication
+
+how to know the space used by table?
+sp_spaceused students
+
+how to rename the table?
+exec sp_rename 'students' , 'studentstb1'
+
+DQL: A common which allows the user to display record
+SELECT
+DML: A command which user to modify the record structure
+INSERT,UPDATE AND DELETE(Brings the change in table)
+DDL: A command which user to alter the table structure
+CREATE, ALTER, TRUNCATE, DROP
+TCL: A command allows the user to perform transaction
+COMMIT, ROLLBACK, SAVEPOINT
+DCL: GRANT, REVOKE
+
+how to create tables?
+create table students
+(
+studentid int,
+studentname varchar(20),
+age tinyint,
+saddress varchar(50)
+)
+
+how to insert records?
+insert into studentstb1 values(100,'Usha',22,'Vizag'),
+                              (200,'Monika',21,'Bangalore'),
+                              (300,'Anvith',21,'Hyderabad')
+select * from studentstb1;
+
+insert into (studentid,studentname) values (400,'Uday)
+
+how to update record?
+update studentstb1 set age=21, saddress='Bangalore' where studentid=200
+
+delete from studentstb1 where studentid=300
+select * from studentstb1;
+
+05-12-2025
+===========
+Cursors
+--------
+Introduction
+Steps to create cursor:
+Cursor Types(Static, Dynamic, KeySet, Forward Only, Fast_Forward, 
+Declare the cursor
+Open the cursor
+Fetch rows
+Process the row
+Close the cursor
+Deallocate the cursor
+Creating Cursor
+Cursor is also a one of the database object that allows you to retrieve the data row by row instead of single set
+-------------
+Static Cursor:
+--------------
+The new row cannot take into the account.
+When someone insert new row static cursor will not show it.
+It works like a read only
+
+Indexes:
+--------
+1.Clustered (table will be sorted)
+2.Non Clustered (not sort the table)
+
+when u appl

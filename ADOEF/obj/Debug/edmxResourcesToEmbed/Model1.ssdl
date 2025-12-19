@@ -41,6 +41,33 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Function Name="GetEmployees" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="startDate" Type="date" Mode="In" />
+    <Parameter Name="endDate" Type="date" Mode="In" />
+  </Function>
+  <Function Name="showbysal" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="salary" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="sp_EmployeeDates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="d1" Type="date" Mode="In" />
+    <Parameter Name="d2" Type="date" Mode="In" />
+  </Function>
+  <Function Name="sp_getemp" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="d" Type="int" Mode="In" />
+    <Parameter Name="sal" Type="decimal" Mode="In" />
+  </Function>
+  <Function Name="sp_GetEmployeeDet" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Empid" Type="int" Mode="In" />
+    <Parameter Name="DateofJoin" Type="date" Mode="InOut" />
+    <Parameter Name="DeptId" Type="int" Mode="InOut" />
+  </Function>
+  <Function Name="sp_GetEmployeesBetweenDates" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="d1" Type="date" Mode="In" />
+    <Parameter Name="d2" Type="date" Mode="In" />
+  </Function>
+  <Function Name="usp_GetCoursesBySemester" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="semester" Type="varchar" Mode="In" />
+  </Function>
   <EntityContainer Name="infinitedbModelStoreContainer">
     <EntitySet Name="Department" EntityType="Self.Department" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />

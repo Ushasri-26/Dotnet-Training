@@ -1,3 +1,5 @@
+C:\Csharp\ADOEF\obj\Debug\ADOEF.csproj.AssemblyReference.cache
+C:\Csharp\ADOEF\obj\Debug\ADOEF.csproj.CoreCompileInputs.cache
 C:\Csharp\ADOEF\bin\Debug\ADOEF.exe.config
 C:\Csharp\ADOEF\bin\Debug\ADOEF.exe
 C:\Csharp\ADOEF\bin\Debug\ADOEF.pdb
@@ -5,8 +7,6 @@ C:\Csharp\ADOEF\bin\Debug\EntityFramework.dll
 C:\Csharp\ADOEF\bin\Debug\EntityFramework.SqlServer.dll
 C:\Csharp\ADOEF\bin\Debug\EntityFramework.xml
 C:\Csharp\ADOEF\bin\Debug\EntityFramework.SqlServer.xml
-C:\Csharp\ADOEF\obj\Debug\ADOEF.csproj.AssemblyReference.cache
-C:\Csharp\ADOEF\obj\Debug\ADOEF.csproj.CoreCompileInputs.cache
 C:\Csharp\ADOEF\obj\Debug\ADOEF.csproj.Up2Date
 C:\Csharp\ADOEF\obj\Debug\ADOEF.exe
 C:\Csharp\ADOEF\obj\Debug\ADOEF.pdb

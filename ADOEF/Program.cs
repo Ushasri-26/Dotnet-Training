@@ -11,15 +11,18 @@ namespace ADOEF
         static void Main(string[] args)
         {
             CRUD c = new CRUD();
-            //c.showallemployees();
+            c.showallemployees();
             // c.SearchRecord();
             // c.AddRecord();
             // c.DeleteRecord();
             //c.UpdateRecord();
             //c.DisplayRecord();
-            c.DisplayBothTable();
+            //c.DisplayBothTable();
             //c.DatesFromUser();
             //c.SalWithBonus();
+            //c.SqlqueryDemo();
+            //c.DMLDemo();
+            c.spdemo();
         }
     }
 }

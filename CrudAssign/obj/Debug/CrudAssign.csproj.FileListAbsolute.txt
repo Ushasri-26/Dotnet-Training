@@ -1,0 +1,12 @@
+C:\Csharp\CrudAssign\bin\Debug\CrudAssign.exe.config
+C:\Csharp\CrudAssign\bin\Debug\CrudAssign.exe
+C:\Csharp\CrudAssign\bin\Debug\CrudAssign.pdb
+C:\Csharp\CrudAssign\bin\Debug\EntityFramework.dll
+C:\Csharp\CrudAssign\bin\Debug\EntityFramework.SqlServer.dll
+C:\Csharp\CrudAssign\bin\Debug\EntityFramework.xml
+C:\Csharp\CrudAssign\bin\Debug\EntityFramework.SqlServer.xml
+C:\Csharp\CrudAssign\obj\Debug\CrudAssign.csproj.AssemblyReference.cache
+C:\Csharp\CrudAssign\obj\Debug\CrudAssign.csproj.CoreCompileInputs.cache
+C:\Csharp\CrudAssign\obj\Debug\CrudAssign.csproj.Up2Date
+C:\Csharp\CrudAssign\obj\Debug\CrudAssign.exe
+C:\Csharp\CrudAssign\obj\Debug\CrudAssign.pdb

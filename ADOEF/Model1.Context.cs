@@ -12,6 +12,8 @@ namespace ADOEF
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class infinitedbEntities : DbContext
     {
@@ -27,5 +29,84 @@ namespace ADOEF
     
         public virtual DbSet<Department> Departments { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
+    
+        public virtual ObjectResult<GetEmployees_Result> GetEmployees(Nullable<System.DateTime> startDate, Nullable<System.DateTime> endDate)
+        {
+            var startDateParameter = startDate.HasValue ?
+                new ObjectParameter("startDate", startDate) :
+                new ObjectParameter("startDate", typeof(System.DateTime));
+    
+            var endDateParameter = endDate.HasValue ?
+                new ObjectParameter("endDate", endDate) :
+                new ObjectParameter("endDate", typeof(System.DateTime));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<GetEmployees_Result>("GetEmployees", startDateParameter, endDateParameter);
+        }
+    
+        public virtual ObjectResult<showbysal_Result> showbysal(Nullable<decimal> salary)
+        {
+            var salaryParameter = salary.HasValue ?
+                new ObjectParameter("salary", salary) :
+                new ObjectParameter("salary", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<showbysal_Result>("showbysal", salaryParameter);
+        }
+    
+        public virtual ObjectResult<sp_EmployeeDates_Result> sp_EmployeeDates(Nullable<System.DateTime> d1, Nullable<System.DateTime> d2)
+        {
+            var d1Parameter = d1.HasValue ?
+                new ObjectParameter("d1", d1) :
+                new ObjectParameter("d1", typeof(System.DateTime));
+    
+            var d2Parameter = d2.HasValue ?
+                new ObjectParameter("d2", d2) :
+                new ObjectParameter("d2", typeof(System.DateTime));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_EmployeeDates_Result>("sp_EmployeeDates", d1Parameter, d2Parameter);
+        }
+    
+        public virtual ObjectResult<sp_getemp_Result> sp_getemp(Nullable<int> d, Nullable<decimal> sal)
+        {
+            var dParameter = d.HasValue ?
+                new ObjectParameter("d", d) :
+                new ObjectParameter("d", typeof(int));
+    
+            var salParameter = sal.HasValue ?
+                new ObjectParameter("sal", sal) :
+                new ObjectParameter("sal", typeof(decimal));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_getemp_Result>("sp_getemp", dParameter, salParameter);
+        }
+    
+        public virtual int sp_GetEmployeeDet(Nullable<int> empid, ObjectParameter dateofJoin, ObjectParameter deptId)
+        {
+            var empidParameter = empid.HasValue ?
+                new ObjectParameter("Empid", empid) :
+                new ObjectParameter("Empid", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_GetEmployeeDet", empidParameter, dateofJoin, deptId);
+        }
+    
+        public virtual ObjectResult<sp_GetEmployeesBetweenDates_Result> sp_GetEmployeesBetweenDates(Nullable<System.DateTime> d1, Nullable<System.DateTime> d2)
+        {
+            var d1Parameter = d1.HasValue ?
+                new ObjectParameter("d1", d1) :
+                new ObjectParameter("d1", typeof(System.DateTime));
+    
+            var d2Parameter = d2.HasValue ?
+                new ObjectParameter("d2", d2) :
+                new ObjectParameter("d2", typeof(System.DateTime));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<sp_GetEmployeesBetweenDates_Result>("sp_GetEmployeesBetweenDates", d1Parameter, d2Parameter);
+        }
+    
+        public virtual ObjectResult<usp_GetCoursesBySemester_Result> usp_GetCoursesBySemester(string semester)
+        {
+            var semesterParameter = semester != null ?
+                new ObjectParameter("semester", semester) :
+                new ObjectParameter("semester", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<usp_GetCoursesBySemester_Result>("usp_GetCoursesBySemester", semesterParameter);
+        }
     }
 }
