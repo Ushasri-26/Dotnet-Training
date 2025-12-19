@@ -1,0 +1,246 @@
+08-12-2025(Monday)
+==================
+ADO.NET(ActiveX Data Object):
+=============================
+Ado.Net is a set of framework classes which allows to interact with the data sources
+Data Sources:
+=============
+Sql Server, Oracle, Mysql, Access, Excel, XML files, Mongodb, etc
+------------------------------------------------------------------
+c#(windows Console web)=>Ado.Net(Framework classes)=>Sql Server
+ADO.NET is used for connection C#/.NET with database like sql/MySQL
+ 
+ADO.NET(1.0) is used in .NET framework and not in .net core
+ 
+Entity Framework(3.0) is used for both .net framework and .net core
+
+Topics:
+->Introduction to Ado.Net
+->Understanding connected architecture
+->Understanding disconnected architecture
+Namespaces in Ado.Net
+======================
+System.Data.Sqlclient-->To interact with Sql Server->sql server only 7>
+
+System.data.oracleclient-->To interact with Oracle database-Oracle only 8>
+
+System.Data.oledb-->access, mysql, excel, file, sql server, oracle
+(Object linking embedding)
+Meant to connect sql+ oracle+ Access, Excel, Mysql
+
+Models in Ado.net:
+------------------
+1.Connected Architecture(online):
+---------------------------------
+To perform CRUD operation, Database connection has to exists
+2.Disconnected architecture(offline):
+-------------------------------------
+All operations are performed offline, all offline changes are updated as a bulk to database
+
+Classes used in Connected architecture
+1.SqlConnection:
+================
+To interact with a database, you must have a connection to it.
+
+Integrity Security:
+===================
+Connects sql server using windows authentication
+SqlConnection con=new SqlConnection("Integrated security=true;server=ICS-LT-BXZYBB4\SQLEXPRESS;database=master");
+
+SqlConnection con=new SqlConnection("uid=sa;pwd=sa;server=remotecomputername;database=master");
+
+2.SqlCommand:
+=============
+The process of interacting with a databse. A command object uses to send sql statements to the database.
+
+Syntax:
+======
+SqlCommand cmd = new sqlcommand("select* from customer,con)
+To send the query to sql server u need to call execute method of command class
+1.Int I = cmd.ExecutenonQuery();
+
+Which is a builtin method of command class
+Use executenonquery when the query does not return any records
+EX: ddl, dml, tcl(insert, update, delete, create, drop, alter)
+ex: insert into <> (...)
+executenonquery returns integer values(no of rows affected)
+
+2.SqlDataReader dr = cmd.ExecuteReader();
+
+use executereader when the query returns a records
+eg: select, procedure, function
+
+3.XMLDataReader dr = cmd.ExecuteXMLReader();
+
+use executexmlreader when the query returns a record in xml format instead of table format
+sqlcommand cmd = new sqlcommand("select * from Employees for xml auto",con)
+
+4.Object ob = cmd.Executescalar();
+
+sqlcommand cmd = new sqlcommand("select * from Employees",con)
+use executescalar when the query returns single value from the database.
+ex: getdate, max, min, count..(aggregate functions)
+--first row->first column
+
+3.SqlDataReader:
+================
+The data reader object allows you to obtain the results of a SELECT statement from a command object
+
+--------------------------------------------------------------------------
+Practical 
+MCQ
+More concentrate
+--------------------------------------------------------------------------
+
+09-12-2025(Tuesday)
+===================
+
+Disconnected Architecture:
+==========================
+All CRUD operations are performed offline
+Classes used in disconnected
+1.SqlConnection
+2.SqlDataAdaptor
+3.DataSet:can store many table
+4.DataTable:can store single table
+5.DataRow:can store 1 row
+6.DataColumn:can store 1 column
+
+SqlDataAdaptor:(Update method which can changes the updates to the db)
+===============
+The SqlDataAdaptor holds the SQL commands and connection object for reading and writing data.
+Sqlcommand cmd = new sqlcommand("select * from Employee", con)
+SqlDataAdaptor cmd = new SqlDataAdaptor("select * from Employee", con)
+
+DataSet:(Collection of Data Tables)
+A DataSet is an in-memory representation of data. It can hold multiple tables(DataTable),relationships between them, and constraints.
+
+DataTable:(DataRows + DataColumns)
+A DataTable is a single table of in-memory data. It contains rows and columns.
+
+DataRow:Single row in a datatable. it contains data for each column in the table and allows you to access,modify and update the table
+
+DataColumn: single column in the datatable. It contains info about that column
+
+
+DataSet ds = new DataSet();
+DataTable dt = new DataTable
+DataRow d = new DataRow();
+DataColumn dc = new DataColumn();
+
+Difference between DataReader and DataSet:
+===================================================================
+   SqlDataReader                     |      DataSet
+===================================================================
+1.Connection required to read data   |  1.Not required
+2.Read only                          |  2.Read/write
+3.Forward only direction             |  3.Forward/backward
+4.Single Table                       |  4.Multiple Tables
+5.Is database specific class         |  5.Shared class
+====================================================================
+11-12-2025
+==========
+-----------------------------------------------------
+Introduction to LINQ:
+=====================
+Stands for Language Integrated Query
+Is a Part of .Net3.0
+"Linq follows common programming model. Irrespective data source application users"
+Data Sources:
+=============
+Dataset
+sql
+xml files
+Collections/generics
+objects
+Active Directory, etc.
+How to do you read, filter and sort data?
+XML file (customers.xml)
+-> custid, name, address, phone
+
+Advantage Of Linq:
+==================
+1. Follow Sql like syntax like select, where, like etc
+2.Support joins
+3.Supports intellisense
+
+LINQ Classifications:
+=======================
+LINQ to Object (L2O)
+LINQ to SQL (L2S)
+LINQ to XML (L2X)
+-----------------------------------------------------
+12-12-2025
+==========
+ADO.NET Entity Framework:
+=========================
+-> Alternative way to interact with database
+1.Ado.net 
+connected
+disconnected
+2.ado.net entity framework
+Drawback of ado.net:
+===================
+
+Try to solve following
+1.Display matching records of employee and department from database
+2.Display empid, empname, deptid, salary from the both the table
+3.Accept 2 dates from the user dynamically. It should all employee details
+4.Display empid, empname, salary and sal with bonus of 30%
+5.Perform insert and delete by accepting data from the user dynamically
+
+15-12-2025
+==========
+There are three approaches to work with EF
+-----------------------------------------------------
+1.database first:
+=================
+first u create database + tables and then you write c# codes or programs)
+(small and medium projects)
+Tables->Entity Framework->Context and Entity Classes
+drawbacks of dbfirst:
+=====================
+-> by chance if table is designed wrongly, then all c# LINQ queries will also be wrong so all linq query created completely depends as per table structure of sql
+-> If backend is not ready, the entire c# development will not happen (the ENTIRE DEVELOPMENT WILL STOP)
+-----------------------------------------------------
+2.code first:
+============
+(more flexible than database first approach) 
+very widely used for larger projects
+DOMAIN CLASSES->EF(Code-First appr)->TABLES(Database)
+You will create classes and properties manually, create context file manually as per the class and properties=> tables are generated automatically all classes will converted to table and all properties will be converted to columns
+-----------------------------------------------------
+3.Model first:
+==============
+It is similar to code first approach
+-no table exists/not database exists in backend
+-class and properties will generate using designer tool
+-most of the things are automated
+
+new project 
+Console framework-modelfirstdemo
+add new item-ado.net entity model=>Empty EF designer model
+will create database by name mypizzadb
+table => pizzas
+             pizzaid, name, description, price, type
+
+create table Pizzas(
+PizzaId int Primary key,
+Pizzaname varchar,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
